@@ -15,7 +15,7 @@
           </p>
           <p class="footer-desc">Full Name：He Feng</p>
           <p class="footer-desc">Phone Number：65450369</p>
-          <p class="footer-desc">Email Address：hosos253@yeah.net</p>
+          <p class="footer-desc">Email Address：info@hooseen.pro</p>
 
         </div>
 
