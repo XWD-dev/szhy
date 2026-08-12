@@ -1,0 +1,354 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Wireless Bluetooth Speaker',
+    price: 12.50,
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&h=600&fit=crop'
+    ],
+    category: 'Electronics',
+    moq: 100,
+    description: 'High-quality portable wireless Bluetooth speaker with deep bass, 10-hour battery life, and waterproof design. Perfect for outdoor activities and indoor entertainment.',
+    specification: 'Bluetooth 5.0, 10W output, IPX5 waterproof, 2000mAh battery, USB-C charging, supports TF card and AUX input.',
+    packaging: 'Individual color box, 20pcs/ctn, carton size: 45x35x30cm, G.W./N.W.: 12kg/10kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-25 days. Shipping by sea/air/express.',
+    supplyAbility: '50000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 2,
+    name: 'Smart LED Desk Lamp',
+    price: 8.90,
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=600&fit=crop'
+    ],
+    category: 'Lighting',
+    moq: 200,
+    description: 'Modern LED desk lamp with touch control, 3 color temperatures, and adjustable brightness. Energy-efficient and eye-caring design for home office and study.',
+    specification: '5W LED, 3 color temperatures (3000K/4500K/6000K), touch dimming, 360° adjustable arm, USB powered.',
+    packaging: 'White box with color sleeve, 30pcs/ctn, carton size: 50x40x35cm, G.W./N.W.: 15kg/13kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 20-30 days. Shipping by sea/air/express.',
+    supplyAbility: '30000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 3,
+    name: 'Stainless Steel Water Bottle',
+    price: 3.20,
+    image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600&h=600&fit=crop'
+    ],
+    category: 'Home Products',
+    moq: 500,
+    description: 'Double-wall vacuum insulated stainless steel water bottle. Keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and leak-proof design.',
+    specification: '304 stainless steel, 500ml capacity, double-wall vacuum insulation, BPA-free lid, powder coated finish.',
+    packaging: 'Individual white box, 25pcs/ctn, carton size: 40x30x25cm, G.W./N.W.: 10kg/8kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '100000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 4,
+    name: 'Cordless Power Drill Set',
+    price: 18.50,
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&h=600&fit=crop'
+    ],
+    category: 'Tools',
+    moq: 50,
+    description: 'Professional cordless power drill with 2-speed transmission, LED work light, and 30-piece accessory kit. Ideal for home improvement and DIY projects.',
+    specification: '20V lithium battery, 1500mAh, 2-speed (0-400/0-1500 RPM), 25+1 torque settings, 10mm chuck, LED light.',
+    packaging: 'Carry case with accessories, 10pcs/ctn, carton size: 45x35x30cm, G.W./N.W.: 18kg/16kg',
+    shipping: 'Sample: 5-7 days, Bulk order: 20-30 days. Shipping by sea/air/express.',
+    supplyAbility: '20000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 5,
+    name: 'Smart Watch Fitness Tracker',
+    price: 15.80,
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1546868871-af0de0ae72be?w=600&h=600&fit=crop'
+    ],
+    category: 'Electronics',
+    moq: 100,
+    description: 'Feature-packed smart watch with heart rate monitor, blood oxygen tracking, sleep analysis, and 14 sports modes. IP68 waterproof with 7-day battery life.',
+    specification: '1.4" HD display, heart rate sensor, SpO2 monitor, IP68 waterproof, 7-day battery, Bluetooth 5.0, compatible with iOS/Android.',
+    packaging: 'Color box with magnetic closure, 40pcs/ctn, carton size: 50x40x30cm, G.W./N.W.: 14kg/12kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-25 days. Shipping by sea/air/express.',
+    supplyAbility: '40000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 6,
+    name: 'Solar Garden Light Set',
+    price: 6.50,
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop'
+    ],
+    category: 'Outdoor Products',
+    moq: 200,
+    description: 'Solar-powered LED garden lights with auto on/off. Waterproof and durable design for pathways, gardens, and patios. Easy installation, no wiring needed.',
+    specification: 'Solar panel: 2V/100mAh, LED: 1W warm white, battery: 600mAh Ni-MH, IP65 waterproof, height: 30cm.',
+    packaging: 'Color box, 24pcs/ctn, carton size: 45x35x25cm, G.W./N.W.: 8kg/6.5kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '60000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 7,
+    name: 'Portable Power Bank 20000mAh',
+    price: 9.90,
+    image: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&h=600&fit=crop'
+    ],
+    category: 'Electronics',
+    moq: 100,
+    description: 'High-capacity 20000mAh portable power bank with fast charging, dual USB outputs, and LED digital display. Charges smartphones up to 5 times.',
+    specification: '20000mAh lithium polymer, 22.5W fast charge, dual USB-A + USB-C output, LED display, 180g lightweight.',
+    packaging: 'White box, 30pcs/ctn, carton size: 40x30x25cm, G.W./N.W.: 11kg/9kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '80000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 8,
+    name: 'Ceramic Coffee Mug Set',
+    price: 2.80,
+    image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=600&fit=crop'
+    ],
+    category: 'Home Products',
+    moq: 500,
+    description: 'Premium ceramic coffee mug with comfortable handle and elegant design. Microwave and dishwasher safe. Available in multiple colors for customization.',
+    specification: 'New bone china ceramic, 350ml capacity, lead-free glaze, microwave safe, dishwasher safe, custom logo available.',
+    packaging: 'Individual white box with foam insert, 36pcs/ctn, carton size: 50x40x35cm, G.W./N.W.: 20kg/18kg',
+    shipping: 'Sample: 5-7 days, Bulk order: 20-25 days. Shipping by sea/air/express.',
+    supplyAbility: '100000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 9,
+    name: 'LED Headlamp Rechargeable',
+    price: 5.60,
+    image: 'https://images.unsplash.com/photo-1525920980930-f4cc65a5f2fd?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1525920980930-f4cc65a5f2fd?w=600&h=600&fit=crop'
+    ],
+    category: 'Tools',
+    moq: 200,
+    description: 'Ultra-bright rechargeable LED headlamp with 3 lighting modes, adjustable headband, and waterproof design. Perfect for camping, running, and night work.',
+    specification: '800 lumens, 3 modes (high/low/strobe), 1200mAh rechargeable battery, IPX4 waterproof, 60° adjustable beam, elastic headband.',
+    packaging: 'Color box, 50pcs/ctn, carton size: 45x35x30cm, G.W./N.W.: 10kg/8kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '50000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 10,
+    name: 'Camping Tent 4-Person',
+    price: 35.00,
+    image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1478827536114-da961b7f86d2?w=600&h=600&fit=crop'
+    ],
+    category: 'Outdoor Products',
+    moq: 30,
+    description: 'Spacious 4-person camping tent with waterproof rainfly, mesh windows, and easy setup design. Lightweight and portable for hiking and outdoor adventures.',
+    specification: '210T polyester fabric, 2000mm waterproof rating, fiberglass poles, 210x210x130cm, weight 3.5kg, carry bag included.',
+    packaging: 'Carry bag, 8pcs/ctn, carton size: 60x20x20cm, G.W./N.W.: 30kg/28kg',
+    shipping: 'Sample: 5-7 days, Bulk order: 20-30 days. Shipping by sea/air/express.',
+    supplyAbility: '10000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 11,
+    name: 'USB-C Hub Multiport Adapter',
+    price: 11.20,
+    image: 'https://images.unsplash.com/photo-1625842268584-8f3296236761?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1625842268584-8f3296236761?w=600&h=600&fit=crop'
+    ],
+    category: 'Electronics',
+    moq: 100,
+    description: '7-in-1 USB-C hub with HDMI 4K output, USB 3.0 ports, SD/TF card reader, and PD charging. Compatible with MacBook, iPad Pro, and most USB-C devices.',
+    specification: '7-in-1: HDMI 4K@30Hz, 2x USB 3.0, USB-C PD 100W, SD card, TF card, RJ45 ethernet. Aluminum shell.',
+    packaging: 'White box, 50pcs/ctn, carton size: 40x30x20cm, G.W./N.W.: 8kg/6kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '30000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 12,
+    name: 'Automatic Night Light Sensor',
+    price: 1.80,
+    image: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=600&fit=crop'
+    ],
+    category: 'Lighting',
+    moq: 1000,
+    description: 'Plug-in LED night light with light sensor, auto on/off at dusk/dawn. Energy-efficient and soft warm glow for bedroom, hallway, and bathroom.',
+    specification: '0.5W LED, warm white 3000K, light sensor auto on/off, AC 110-240V, 30 lumens, lifespan 50000 hours.',
+    packaging: 'Blister card, 100pcs/ctn, carton size: 50x40x30cm, G.W./N.W.: 8kg/7kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 10-15 days. Shipping by sea/air/express.',
+    supplyAbility: '200000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 13,
+    name: 'Wireless Earbuds Pro',
+    price: 8.50,
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&h=600&fit=crop'
+    ],
+    category: 'Electronics',
+    moq: 200,
+    description: 'True wireless earbuds with active noise cancellation, transparent mode, and 30-hour total battery life. Hi-Fi stereo sound with deep bass.',
+    specification: 'Bluetooth 5.3, ANC -35dB, 10mm drivers, 6h playback per charge, 30h with case, IPX5 waterproof, touch control.',
+    packaging: 'Color box with accessories, 50pcs/ctn, carton size: 40x30x25cm, G.W./N.W.: 8kg/6kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '60000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 14,
+    name: 'LED Ring Light 10 Inch',
+    price: 7.20,
+    image: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=600&fit=crop'
+    ],
+    category: 'Lighting',
+    moq: 100,
+    description: 'Professional 10-inch LED ring light with adjustable tripod stand, phone holder, and remote control. Perfect for video recording, live streaming, and selfies.',
+    specification: '10" ring light, 120 LEDs, 3 color modes, 10 brightness levels, 2.1m tripod stand, phone holder, USB powered.',
+    packaging: 'Color box, 20pcs/ctn, carton size: 55x30x30cm, G.W./N.W.: 12kg/10kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-25 days. Shipping by sea/air/express.',
+    supplyAbility: '25000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 15,
+    name: 'Multi-Purpose Tool Kit',
+    price: 22.00,
+    image: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&h=600&fit=crop'
+    ],
+    category: 'Tools',
+    moq: 30,
+    description: 'Complete 100-piece home repair tool kit with carrying case. Includes screwdrivers, pliers, wrenches, tape measure, and more. Perfect for DIY and household repairs.',
+    specification: '100 pieces, carbon steel tools, chrome vanadium screwdrivers, blow-mold carrying case, includes pliers, hammer, tape measure, hex keys.',
+    packaging: 'Carry case, 5pcs/ctn, carton size: 50x35x20cm, G.W./N.W.: 15kg/13kg',
+    shipping: 'Sample: 5-7 days, Bulk order: 20-25 days. Shipping by sea/air/express.',
+    supplyAbility: '15000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 16,
+    name: 'Silicone Kitchen Utensil Set',
+    price: 6.80,
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=600&fit=crop'
+    ],
+    category: 'Home Products',
+    moq: 200,
+    description: 'Premium 12-piece silicone kitchen utensil set with wooden handles. Heat-resistant, non-stick safe, and BPA-free. Includes spatula, ladle, tongs, and more.',
+    specification: '12 pieces, food-grade silicone, heat resistant up to 230°C, wooden handles, BPA-free, dishwasher safe, includes holder.',
+    packaging: 'Gift box, 16pcs/ctn, carton size: 45x35x30cm, G.W./N.W.: 12kg/10kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '40000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 17,
+    name: 'Portable Camping Stove',
+    price: 14.50,
+    image: 'https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?w=600&h=600&fit=crop'
+    ],
+    category: 'Outdoor Products',
+    moq: 50,
+    description: 'Compact portable gas camping stove with piezo ignition. Lightweight and foldable design for backpacking, hiking, and outdoor cooking.',
+    specification: '3000W output, piezo ignition, compatible with butane/propane canisters, foldable design, weight 280g, wind-resistant burner.',
+    packaging: 'Carry bag with manual, 30pcs/ctn, carton size: 40x30x25cm, G.W./N.W.: 10kg/8kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '30000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 18,
+    name: 'Mini Projector HD',
+    price: 28.00,
+    image: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=600&h=600&fit=crop'
+    ],
+    category: 'Electronics',
+    moq: 50,
+    description: 'Portable mini projector with 1080P support, built-in speakers, and HDMI/USB connectivity. Perfect for home theater, presentations, and outdoor movie nights.',
+    specification: 'Native 720P, supports 1080P, 4000 lumens, 2000:1 contrast, HDMI/USB/AV input, built-in speaker, projection size 30-120 inches.',
+    packaging: 'Color box with accessories, 15pcs/ctn, carton size: 45x35x25cm, G.W./N.W.: 12kg/10kg',
+    shipping: 'Sample: 5-7 days, Bulk order: 20-25 days. Shipping by sea/air/express.',
+    supplyAbility: '10000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 19,
+    name: 'Yoga Mat Non-Slip',
+    price: 4.50,
+    image: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&h=600&fit=crop'
+    ],
+    category: 'Outdoor Products',
+    moq: 300,
+    description: 'High-density eco-friendly yoga mat with non-slip surface and alignment lines. Extra thick 6mm cushioning for comfort during yoga, pilates, and exercise.',
+    specification: 'TPE material, 183x61cm, 6mm thick, non-slip textured surface, alignment lines, eco-friendly, lightweight 1kg, includes carry strap.',
+    packaging: 'Shrink wrap with strap, 20pcs/ctn, carton size: 65x20x20cm, G.W./N.W.: 22kg/20kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 15-20 days. Shipping by sea/air/express.',
+    supplyAbility: '50000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  },
+  {
+    id: 20,
+    name: 'Smart LED Light Bulb WiFi',
+    price: 2.50,
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=400&fit=crop',
+    images: [
+      'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop'
+    ],
+    category: 'Lighting',
+    moq: 500,
+    description: 'WiFi-enabled smart LED bulb with 16 million colors, voice control compatibility, and scheduling. Works with Alexa and Google Home.',
+    specification: '9W LED, 800 lumens, 16M colors + warm/cool white, WiFi 2.4GHz, E27 base, voice control, app control, timer/schedule function.',
+    packaging: 'Color box, 40pcs/ctn, carton size: 45x35x30cm, G.W./N.W.: 8kg/6kg',
+    shipping: 'Sample: 3-5 days, Bulk order: 10-15 days. Shipping by sea/air/express.',
+    supplyAbility: '100000 pcs/month',
+    paymentTerms: 'T/T, Western Union, PayPal, L/C'
+  }
+]
+
+export const categories = ['All', 'Electronics', 'Lighting', 'Tools', 'Home Products', 'Outdoor Products']
