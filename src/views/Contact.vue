@@ -45,7 +45,7 @@
             <p>Address:UNIT 1406B 14/F THE BELGIAN BANK BUILDING NOS 721-725NATHAN ROAD KOWLOON HONG KONG</p>
             <p>Full Name：He Feng</p>
             <p>Phone Number：65450369</p>
-            <p>Email Address：hosos253@yeah.net</p>
+            <p>Email Address：info@hooseen.pro</p>
 
           </div>
           <div class="info-card">
